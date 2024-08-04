@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 80px 60px 0px 60px;
+}
+
+.container h1 {
+    margin: 40px 0px;
+    font-size: 30px;
+}
+
+.form-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.input-text label {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+.input-text input {
+    background: none;
+    color: #ffffff;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    outline: none;
+    font-size: 15px;
+}
+
+.add-btn button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.add-btn button:hover {
+    background-color: #88ea4f;
+    color: #000000;
+}
+
+.addEmployeesVal {
+    margin-top: 50px;
+}
+
+.addEmployeesVal h1 {
+    font-size: 20px;
+}
+
+.addEmployeesVal p {
+    color: #7e7e7e;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.success {
+    color: #168b16;
+    margin-top: 20px;
+}
+
+.error {
+    color: #f14040;
+    margin-top: 20px;
+}
+
+#employeeCount {
+    color: #656363;
+}
+
+.employee-list {
+    margin-top: 20px;
+}
+
+
+.employee-details {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: #101111;
+    box-shadow: 0 0 5px #000000;
+    border: 1px solid #787676;
+}
+
+.employee-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.employee-details span {
+    margin-right: 15px;
+}
+
+.delete-container {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-container button {
+    background-color: #f8f6f6;
+    color: #000000;
+    border: 1px solid #f0eeee;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.delete-container button:hover {
+    color: #ffffff;
+    background-color: #41c1ec;
+}
